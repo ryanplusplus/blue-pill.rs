@@ -5,14 +5,15 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "OpenOCD",
-      "cwd": "${workspaceRoot}",
-      "executable": "${workspaceRoot}/target/thumbv7m-none-eabi/debug/blue-pill-quickstart",
       "request": "launch",
       "type": "cortex-debug",
+      "name": "OpenOCD",
+      "cwd": "${workspaceRoot}",
       "servertype": "openocd",
+      "executable": "${workspaceRoot}/target/thumbv7m-none-eabi/debug/blue-pill-quickstart",
       "debuggerArgs": ["-q", "-x", "${workspaceRoot}/openocd.gdb"],
-      "configFiles": ["${workspaceRoot}/openocd.cfg"]
+      "configFiles": ["${workspaceRoot}/openocd.cfg"],
+      "preLaunchTask": "Target build"
     }
   ]
 }
