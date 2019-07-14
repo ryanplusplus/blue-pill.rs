@@ -10,7 +10,7 @@
       "name": "OpenOCD",
       "cwd": "${workspaceRoot}",
       "servertype": "openocd",
-      "executable": "${workspaceRoot}/target/thumbv7m-none-eabi/debug/blue-pill-quickstart",
+      "executable": "${workspaceRoot}/target/thumbv7m-none-eabi/debug/blue-pill",
       "debuggerArgs": ["-q", "-x", "${workspaceRoot}/openocd.gdb"],
       "configFiles": ["${workspaceRoot}/openocd.cfg"],
       "preLaunchTask": "Target build"

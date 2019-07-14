@@ -1,7 +1,7 @@
 [package]
-name = "blue-pill-quickstart"
-version = "0.1.0"
-authors = ["Guillaume Pinot <texitoi@texitoi.eu>"]
+name = "blue-pill"
+version = "0.0.1"
+authors = ["Ryan Hartlage <ryanplusplus@gmail.com>"]
 edition = "2018"
 
 [dependencies]

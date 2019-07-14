@@ -14,8 +14,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "blue-pill-quickstart"
-version = "0.1.0"
+name = "blue-pill"
+version = "0.0.1"
 dependencies = [
  "cortex-m 0.5.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "cortex-m-rt 0.6.7 (registry+https://github.com/rust-lang/crates.io-index)",
