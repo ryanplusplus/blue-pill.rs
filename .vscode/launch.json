@@ -1,0 +1,18 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "OpenOCD",
+      "cwd": "${workspaceRoot}",
+      "executable": "${workspaceRoot}/target/thumbv7m-none-eabi/debug/blue-pill-quickstart",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "openocd",
+      "debuggerArgs": ["-q", "-x", "${workspaceRoot}/openocd.gdb"],
+      "configFiles": ["${workspaceRoot}/openocd.cfg"]
+    }
+  ]
+}
