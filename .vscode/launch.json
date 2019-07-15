@@ -11,7 +11,7 @@
       "cwd": "${workspaceRoot}",
       "servertype": "openocd",
       "executable": "${workspaceRoot}/target/thumbv7m-none-eabi/debug/blue-pill",
-      "debuggerArgs": ["-q", "-x", "${workspaceRoot}/openocd.gdb"],
+      "debuggerArgs": ["-q", "-x", "${workspaceRoot}/gdb/vscode.gdb"],
       "configFiles": ["${workspaceRoot}/openocd.cfg"],
       "preLaunchTask": "Target build"
     }

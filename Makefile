@@ -1,4 +1,4 @@
-TARGET:=blue-pill-quickstart
+TARGET:=blue-pill
 OUTPUT_DIR:=target/thumbv7m-none-eabi/release/
 
 .PHONY: always
